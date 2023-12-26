@@ -1,0 +1,50 @@
+{
+    "game": "Farkle",
+    "description": "A popular dice game played with friends and family, also known as Zonk, Zilch, and 10,000.",
+    "rules": {
+      "objective": "The goal is to be the first player to reach a certain number of points, typically 10,000.",
+      "equipment": [
+        "Six standard six-sided dice",
+        "A score sheet or an electronic scoring device"
+      ],
+      "gameplay": {
+        "starting_the_game": [
+          "Decide who goes first by rolling a single die; the player with the highest number goes first.",
+          "Players take turns rolling all six dice."
+        ],
+        "scoring": {
+          "combinations": {
+            "1": 100,
+            "5": 50,
+            "Three 1's": 1000,
+            "Three 2's": 200,
+            "Three 3's": 300,
+            "Three 4's": 400,
+            "Three 5's": 500,
+            "Three 6's": 600
+          },
+          "additional_scoring": [
+            "If a player rolls a straight (1, 2, 3, 4, 5, 6) in a single roll, they get 1500 points.",
+            "If a player rolls three pairs in a single roll, they get 1500 points."
+          ]
+        },
+        "farkling": [
+          "If a player rolls dice and doesn't score any points, it's called a 'Farkle.'",
+          "If a player Farkles, they lose all the points they accumulated in that turn, and it becomes the next player's turn."
+        ],
+        "ending_a_turn": [
+          "After each roll, the player must decide whether to stop and keep the points scored or continue rolling the remaining dice.",
+          "If all six dice are scoring, the player can choose to roll all six dice again."
+        ],
+        "busting": [
+          "If a player rolls and none of the dice score points, they lose all the points accumulated in the entire game, and their turn ends."
+        ],
+        "winning": "The first player to reach a certain point threshold (usually 10,000) wins the game."
+      },
+      "house_rules": [
+        "Some groups may have additional rules or variations, such as allowing certain scoring combinations to be carried over between turns."
+      ]
+    },
+    "reminder": "These rules are a general guide, and house rules may apply. It's always a good idea to clarify the rules with all players before starting a game."
+  }
+  
