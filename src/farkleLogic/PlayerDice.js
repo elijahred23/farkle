@@ -33,6 +33,9 @@ const PlayerDice = {
         5: 0,
         6: 0,
     },
+    addKeptDice(){
+
+    },
     totalCounts: 2000,
     calculateProbability(method, number = null){
         const { keptDice, availableDice } = this.splitKeptAvailabeDice();
